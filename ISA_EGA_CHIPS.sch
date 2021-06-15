@@ -397,4 +397,48 @@ F 3 "" H 12400 12300 50  0001 C CNN
 	1    12400 10650
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R_Network08 SIP1
+U 1 1 60C87D52
+P 15400 3550
+F 0 "SIP1" V 14783 3550 50  0000 C CNN
+F 1 "4.7k" V 14874 3550 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 15875 3550 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 15400 3550 50  0001 C CNN
+	1    15400 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Network08 SIP2
+U 1 1 60C88A3C
+P 16250 3550
+F 0 "SIP2" V 15633 3550 50  0000 C CNN
+F 1 "10k" V 15724 3550 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP9" V 16725 3550 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 16250 3550 50  0001 C CNN
+	1    16250 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP SIP3
+U 1 1 60C8BB99
+P 17150 3400
+F 0 "SIP3" V 17875 3381 50  0000 C CNN
+F 1 "33" V 17784 3381 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 17825 3400 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 17150 3400 50  0001 C CNN
+	1    17150 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Pack04_SIP SIP4
+U 1 1 60C8CEC3
+P 17950 3400
+F 0 "SIP4" V 18675 3381 50  0000 C CNN
+F 1 "33" V 18584 3381 50  0000 C CNN
+F 2 "Resistor_THT:R_Array_SIP8" V 18625 3400 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 17950 3400 50  0001 C CNN
+	1    17950 3400
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
