@@ -573,4 +573,70 @@ F 3 "~" H 14950 1900 50  0001 C CNN
 	1    14950 1900
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J2
+U 1 1 60CA2B0E
+P 16500 1450
+F 0 "J2" H 16580 1442 50  0000 L CNN
+F 1 "Conn_01x06" H 16580 1351 50  0000 L CNN
+F 2 "" H 16500 1450 50  0001 C CNN
+F 3 "~" H 16500 1450 50  0001 C CNN
+	1    16500 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x16_Odd_Even J1
+U 1 1 60CA35D4
+P 18300 1550
+F 0 "J1" H 18350 2467 50  0000 C CNN
+F 1 "EGA Feature Connector" H 18350 2376 50  0000 C CNN
+F 2 "" H 18300 1550 50  0001 C CNN
+F 3 "~" H 18300 1550 50  0001 C CNN
+	1    18300 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J5
+U 1 1 60CA4AB1
+P 19600 1100
+F 0 "J5" H 19680 1142 50  0000 L CNN
+F 1 "Conn_01x03" H 19680 1051 50  0000 L CNN
+F 2 "" H 19600 1100 50  0001 C CNN
+F 3 "~" H 19600 1100 50  0001 C CNN
+	1    19600 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J3
+U 1 1 60CA5001
+P 19450 1550
+F 0 "J3" H 19550 1525 50  0000 L CNN
+F 1 "Conn_Coaxial" H 19550 1434 50  0000 L CNN
+F 2 "" H 19450 1550 50  0001 C CNN
+F 3 " ~" H 19450 1550 50  0001 C CNN
+	1    19450 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_Coaxial J4
+U 1 1 60CA53BF
+P 19450 2100
+F 0 "J4" H 19550 2075 50  0000 L CNN
+F 1 "Conn_Coaxial" H 19550 1984 50  0000 L CNN
+F 2 "" H 19450 2100 50  0001 C CNN
+F 3 " ~" H 19450 2100 50  0001 C CNN
+	1    19450 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:DB9_Female_MountingHoles J6
+U 1 1 60CA6101
+P 19600 3100
+F 0 "J6" H 19780 3102 50  0000 L CNN
+F 1 "DB9_Female_MountingHoles" H 19780 3011 50  0000 L CNN
+F 2 "" H 19600 3100 50  0001 C CNN
+F 3 " ~" H 19600 3100 50  0001 C CNN
+	1    19600 3100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
