@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector:Bus_ISA_8bit J?
+L Connector:Bus_ISA_8bit J7
 U 1 1 60C8961E
 P 1700 2900
-F 0 "J?" H 1700 4667 50  0000 C CNN
+F 0 "J7" H 1700 4667 50  0000 C CNN
 F 1 "Bus_ISA_8bit" H 1700 4576 50  0000 C CNN
 F 2 "" H 1700 2900 50  0001 C CNN
 F 3 "https://en.wikipedia.org/wiki/Industry_Standard_Architecture" H 1700 2900 50  0001 C CNN
