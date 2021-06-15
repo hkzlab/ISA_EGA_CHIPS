@@ -441,4 +441,37 @@ F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 17950 3400 50  0001 C CNN
 	1    17950 3400
 	0    -1   -1   0   
 $EndComp
+$Comp
+L Oscillator:ACO-xxxMHz OSC1
+U 1 1 60C8EBB1
+P 11450 1950
+F 0 "OSC1" H 11106 1996 50  0000 R CNN
+F 1 "16.257MHz" H 11106 1905 50  0000 R CNN
+F 2 "Oscillator:Oscillator_DIP-14" H 11900 1600 50  0001 C CNN
+F 3 "http://www.conwin.com/datasheets/cx/cx030.pdf" H 11350 1950 50  0001 C CNN
+	1    11450 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Oscillator:ACO-xxxMHz OSC2
+U 1 1 60C8F055
+P 11450 2800
+F 0 "OSC2" H 11107 2846 50  0000 R CNN
+F 1 "25MHz" H 11107 2755 50  0000 R CNN
+F 2 "Oscillator:Oscillator_DIP-14" H 11900 2450 50  0001 C CNN
+F 3 "http://www.conwin.com/datasheets/cx/cx030.pdf" H 11350 2800 50  0001 C CNN
+	1    11450 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_DIP_x05 SW1
+U 1 1 60C90FF1
+P 12800 1550
+F 0 "SW1" H 12800 2017 50  0000 C CNN
+F 1 "SW_DIP_x05" H 12800 1926 50  0000 C CNN
+F 2 "" H 12800 1550 50  0001 C CNN
+F 3 "~" H 12800 1550 50  0001 C CNN
+	1    12800 1550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
