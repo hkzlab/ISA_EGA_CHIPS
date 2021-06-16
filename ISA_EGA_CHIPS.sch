@@ -356,12 +356,12 @@ $EndComp
 $Comp
 L 74xx:74LS244 U15
 U 1 1 60CA4AE5
-P 8800 14600
-F 0 "U15" H 8550 15250 50  0000 C CNN
-F 1 "74LS244" H 9000 15250 50  0000 C CNN
-F 2 "" H 8800 14600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf" H 8800 14600 50  0001 C CNN
-	1    8800 14600
+P 8800 14650
+F 0 "U15" H 8550 15300 50  0000 C CNN
+F 1 "74LS244" H 9000 15300 50  0000 C CNN
+F 2 "" H 8800 14650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls244.pdf" H 8800 14650 50  0001 C CNN
+	1    8800 14650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -532,12 +532,12 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x03 JP1
 U 1 1 60C9E5FA
-P 6000 12450
-F 0 "JP1" H 6080 12492 50  0000 L CNN
-F 1 "ROM Type" H 6080 12401 50  0000 L CNN
-F 2 "" H 6000 12450 50  0001 C CNN
-F 3 "~" H 6000 12450 50  0001 C CNN
-	1    6000 12450
+P 5950 12450
+F 0 "JP1" H 6030 12492 50  0000 L CNN
+F 1 "ROM Type" H 6030 12401 50  0000 L CNN
+F 2 "" H 5950 12450 50  0001 C CNN
+F 3 "~" H 5950 12450 50  0001 C CNN
+	1    5950 12450
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1924,24 +1924,20 @@ Wire Wire Line
 $Comp
 L power:VCC #PWR?
 U 1 1 61079D97
-P 6800 12850
-F 0 "#PWR?" H 6800 12700 50  0001 C CNN
-F 1 "VCC" H 6815 13023 50  0000 C CNN
-F 2 "" H 6800 12850 50  0001 C CNN
-F 3 "" H 6800 12850 50  0001 C CNN
-	1    6800 12850
+P 6750 12850
+F 0 "#PWR?" H 6750 12700 50  0001 C CNN
+F 1 "VCC" H 6765 13023 50  0000 C CNN
+F 2 "" H 6750 12850 50  0001 C CNN
+F 3 "" H 6750 12850 50  0001 C CNN
+	1    6750 12850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6800 12850 6800 12950
+	6750 12850 6750 12950
 Wire Wire Line
-	6800 12950 7350 12950
+	6850 12750 6850 12450
 Wire Wire Line
-	7350 12750 6900 12750
-Wire Wire Line
-	6900 12750 6900 12450
-Wire Wire Line
-	6900 12450 6200 12450
+	6850 12450 6150 12450
 $Comp
 L power:VCC #PWR?
 U 1 1 610DA5AF
@@ -1999,8 +1995,8 @@ Wire Wire Line
 Text Label 7300 14450 2    50   ~ 0
 BUF_A14
 Wire Wire Line
-	6200 12550 6650 12550
-Text Label 6650 12550 2    50   ~ 0
+	6150 12550 6600 12550
+Text Label 6600 12550 2    50   ~ 0
 BUF_A14
 Wire Wire Line
 	7100 6900 6650 6900
@@ -2011,10 +2007,10 @@ Wire Wire Line
 Text Label 13550 9950 2    50   ~ 0
 ~ROMWE
 Wire Wire Line
-	6200 12350 6650 12350
-Text Label 6650 12350 2    50   ~ 0
+	6150 12350 6600 12350
+Text Label 6600 12350 2    50   ~ 0
 ~ROMWE
-Text Notes 6650 12800 2    50   ~ 0
+Text Notes 6600 12800 2    50   ~ 0
 Switches between a standard ROM\nand a bank switching ROM
 Wire Wire Line
 	10400 9350 10850 9350
@@ -2069,4 +2065,224 @@ Wire Wire Line
 	5850 14550 5400 14550
 Text Label 5400 14550 0    50   ~ 0
 BUS_A15
+Wire Wire Line
+	3050 3100 3500 3100
+Text Label 3500 3100 2    50   ~ 0
+BUS_A13
+Wire Wire Line
+	5850 14650 5400 14650
+Text Label 5400 14650 0    50   ~ 0
+BUS_A13
+Wire Wire Line
+	3050 3300 3500 3300
+Text Label 3500 3300 2    50   ~ 0
+BUS_A11
+Wire Wire Line
+	5850 14750 5400 14750
+Text Label 5400 14750 0    50   ~ 0
+BUS_A11
+Wire Wire Line
+	3050 3500 3500 3500
+Text Label 3500 3500 2    50   ~ 0
+BUS_A09
+Wire Wire Line
+	5850 14850 5400 14850
+Text Label 5400 14850 0    50   ~ 0
+BUS_A09
+Wire Wire Line
+	6850 14150 7300 14150
+Text Label 7300 14150 2    50   ~ 0
+BUF_A08
+Wire Wire Line
+	6850 14250 7300 14250
+Text Label 7300 14250 2    50   ~ 0
+BUF_A10
+Wire Wire Line
+	6850 14350 7300 14350
+Text Label 7300 14350 2    50   ~ 0
+BUF_A12
+Wire Wire Line
+	6850 14550 7300 14550
+Text Label 7300 14550 2    50   ~ 0
+BUF_A15
+Wire Wire Line
+	6850 14650 7300 14650
+Text Label 7300 14650 2    50   ~ 0
+BUF_A13
+Wire Wire Line
+	6850 14750 7300 14750
+Text Label 7300 14750 2    50   ~ 0
+BUF_A11
+Wire Wire Line
+	6850 14850 7300 14850
+Text Label 7300 14850 2    50   ~ 0
+BUF_A09
+$Comp
+L power:VCC #PWR?
+U 1 1 615BFBA8
+P 8800 13750
+F 0 "#PWR?" H 8800 13600 50  0001 C CNN
+F 1 "VCC" H 8815 13923 50  0000 C CNN
+F 2 "" H 8800 13750 50  0001 C CNN
+F 3 "" H 8800 13750 50  0001 C CNN
+	1    8800 13750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 13850 8800 13750
+Wire Wire Line
+	8800 15450 8800 15500
+Wire Wire Line
+	8300 15050 8200 15050
+Wire Wire Line
+	8200 15050 8200 15100
+Wire Wire Line
+	8200 15150 8300 15150
+Wire Wire Line
+	8800 15500 8100 15500
+Wire Wire Line
+	8100 15500 8100 15100
+Wire Wire Line
+	8100 15100 8200 15100
+Connection ~ 8200 15100
+Wire Wire Line
+	8200 15100 8200 15150
+$Comp
+L power:GND #PWR?
+U 1 1 6168D501
+P 8800 15550
+F 0 "#PWR?" H 8800 15300 50  0001 C CNN
+F 1 "GND" H 8805 15377 50  0000 C CNN
+F 2 "" H 8800 15550 50  0001 C CNN
+F 3 "" H 8800 15550 50  0001 C CNN
+	1    8800 15550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 15500 8800 15550
+Connection ~ 8800 15500
+Wire Wire Line
+	3050 4400 3500 4400
+Text Label 3500 4400 2    50   ~ 0
+BUS_A00
+Wire Wire Line
+	8300 14150 7850 14150
+Text Label 7850 14150 0    50   ~ 0
+BUS_A00
+Wire Wire Line
+	3050 4200 3500 4200
+Text Label 3500 4200 2    50   ~ 0
+BUS_A02
+Wire Wire Line
+	8300 14250 7850 14250
+Text Label 7850 14250 0    50   ~ 0
+BUS_A02
+Wire Wire Line
+	3050 4000 3500 4000
+Text Label 3500 4000 2    50   ~ 0
+BUS_A04
+Wire Wire Line
+	8300 14350 7850 14350
+Text Label 7850 14350 0    50   ~ 0
+BUS_A04
+Wire Wire Line
+	3050 3800 3500 3800
+Text Label 3500 3800 2    50   ~ 0
+BUS_A06
+Wire Wire Line
+	8300 14450 7850 14450
+Text Label 7850 14450 0    50   ~ 0
+BUS_A06
+Wire Wire Line
+	3050 3700 3500 3700
+Text Label 3500 3700 2    50   ~ 0
+BUS_A07
+Wire Wire Line
+	8300 14550 7850 14550
+Text Label 7850 14550 0    50   ~ 0
+BUS_A07
+Wire Wire Line
+	3050 3900 3500 3900
+Text Label 3500 3900 2    50   ~ 0
+BUS_A05
+Wire Wire Line
+	8300 14650 7850 14650
+Text Label 7850 14650 0    50   ~ 0
+BUS_A05
+Wire Wire Line
+	3050 4100 3500 4100
+Text Label 3500 4100 2    50   ~ 0
+BUS_A03
+Wire Wire Line
+	8300 14750 7850 14750
+Text Label 7850 14750 0    50   ~ 0
+BUS_A03
+Wire Wire Line
+	3050 4300 3500 4300
+Text Label 3500 4300 2    50   ~ 0
+BUS_A01
+Wire Wire Line
+	8300 14850 7850 14850
+Text Label 7850 14850 0    50   ~ 0
+BUS_A01
+Wire Wire Line
+	9300 14150 9750 14150
+Text Label 9750 14150 2    50   ~ 0
+BUF_A00
+Wire Wire Line
+	9300 14250 9750 14250
+Text Label 9750 14250 2    50   ~ 0
+BUF_A02
+Wire Wire Line
+	9300 14350 9750 14350
+Text Label 9750 14350 2    50   ~ 0
+BUF_A04
+Wire Wire Line
+	9300 14450 9750 14450
+Text Label 9750 14450 2    50   ~ 0
+BUF_A06
+Wire Wire Line
+	9300 14550 9750 14550
+Text Label 9750 14550 2    50   ~ 0
+BUF_A07
+Wire Wire Line
+	9300 14650 9750 14650
+Text Label 9750 14650 2    50   ~ 0
+BUF_A05
+Wire Wire Line
+	9300 14750 9750 14750
+Text Label 9750 14750 2    50   ~ 0
+BUF_A03
+Wire Wire Line
+	9300 14850 9750 14850
+Text Label 9750 14850 2    50   ~ 0
+BUF_A01
+Wire Wire Line
+	7100 5500 6650 5500
+Text Label 6650 5500 0    50   ~ 0
+BUF_A00
+Wire Wire Line
+	11650 8450 11200 8450
+Text Label 11200 8450 0    50   ~ 0
+BUF_A00
+Wire Wire Line
+	7350 11350 6900 11350
+Text Label 6900 11350 0    50   ~ 0
+BUF_A00
+Wire Wire Line
+	6850 12750 7350 12750
+Wire Wire Line
+	6750 12950 7350 12950
+Wire Wire Line
+	11650 8550 11200 8550
+Text Label 11200 8550 0    50   ~ 0
+BUF_A01
+Wire Wire Line
+	7350 11450 6900 11450
+Text Label 6900 11450 0    50   ~ 0
+BUF_A01
+Wire Wire Line
+	7100 5600 6650 5600
+Text Label 6650 5600 0    50   ~ 0
+BUF_A01
 $EndSCHEMATC
