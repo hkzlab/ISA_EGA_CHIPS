@@ -2333,4 +2333,16 @@ Wire Wire Line
 	11700 6700 11250 6700
 Text Label 11250 6700 0    50   ~ 0
 BUF_A05
+Wire Wire Line
+	21350 7750 20900 7750
+Text Label 20900 7750 0    50   ~ 0
+BUF_A06
+Wire Wire Line
+	7100 6750 6650 6750
+Text Label 6650 6750 0    50   ~ 0
+BUF_A06
+Wire Wire Line
+	11700 6800 11250 6800
+Text Label 11250 6800 0    50   ~ 0
+BUF_A06
 $EndSCHEMATC
