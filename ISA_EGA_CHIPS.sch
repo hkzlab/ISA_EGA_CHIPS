@@ -2409,4 +2409,36 @@ Wire Wire Line
 	7100 7350 6650 7350
 Text Label 6650 7350 0    50   ~ 0
 BUF_A12
+Text Label 20900 8450 0    50   ~ 0
+BUF_A13
+Wire Wire Line
+	21350 8450 20900 8450
+Text Label 6650 7450 0    50   ~ 0
+BUF_A13
+Wire Wire Line
+	7100 7450 6650 7450
+Text Label 6650 7650 0    50   ~ 0
+BUF_A15
+Wire Wire Line
+	7100 7650 6650 7650
+Text Label 11250 7300 0    50   ~ 0
+BUF_A15
+Wire Wire Line
+	11700 7300 11250 7300
+Wire Wire Line
+	3050 2800 3500 2800
+Text Label 3500 2800 2    50   ~ 0
+BUS_A16
+Wire Wire Line
+	11700 7400 11250 7400
+Text Label 11250 7400 0    50   ~ 0
+BUS_A16
+Wire Wire Line
+	3050 2700 3500 2700
+Text Label 3500 2700 2    50   ~ 0
+BUS_A17
+Wire Wire Line
+	11700 7500 11250 7500
+Text Label 11250 7500 0    50   ~ 0
+BUS_A17
 $EndSCHEMATC
