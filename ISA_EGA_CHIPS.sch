@@ -499,12 +499,12 @@ $EndComp
 $Comp
 L Device:R_Small R6
 U 1 1 60C968E7
-P 3350 2300
-F 0 "R6" V 3300 2150 50  0000 C CNN
-F 1 "47" V 3300 2450 50  0000 C CNN
-F 2 "" H 3350 2300 50  0001 C CNN
-F 3 "~" H 3350 2300 50  0001 C CNN
-	1    3350 2300
+P 3600 2300
+F 0 "R6" V 3550 2150 50  0000 C CNN
+F 1 "47" V 3550 2450 50  0000 C CNN
+F 2 "" H 3600 2300 50  0001 C CNN
+F 3 "~" H 3600 2300 50  0001 C CNN
+	1    3600 2300
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1850,8 +1850,6 @@ Wire Wire Line
 Wire Wire Line
 	6350 9950 6150 9950
 Wire Wire Line
-	3050 2300 3250 2300
-Wire Wire Line
 	3150 1400 3050 1400
 Wire Wire Line
 	3150 1150 3150 1400
@@ -1859,8 +1857,8 @@ Wire Wire Line
 	3150 1400 3250 1400
 Connection ~ 3150 1400
 Wire Wire Line
-	3450 2300 3850 2300
-Text Label 3850 2300 2    50   ~ 0
+	3700 2300 4100 2300
+Text Label 4100 2300 2    50   ~ 0
 ~IO_RDY
 Text Label 9000 9350 2    50   ~ 0
 ~IO_RDY
@@ -1898,7 +1896,7 @@ $EndComp
 Wire Wire Line
 	21750 6850 21750 6950
 Wire Wire Line
-	21750 9250 21750 9150
+	21750 9250 21750 9200
 $Comp
 L power:VCC #PWR?
 U 1 1 61079D97
@@ -2457,4 +2455,31 @@ Wire Wire Line
 	3050 2500 3500 2500
 Text Label 3500 2500 2    50   ~ 0
 BUS_A19
+Wire Wire Line
+	3050 2400 3500 2400
+Text Label 3500 2400 2    50   ~ 0
+AEN
+Wire Wire Line
+	3050 2300 3500 2300
+Wire Wire Line
+	11700 9400 11250 9400
+Text Label 11250 9400 0    50   ~ 0
+AEN
+Wire Wire Line
+	13150 7800 13600 7800
+Text Label 13600 7800 2    50   ~ 0
+~ROMOE
+Wire Wire Line
+	21350 8950 20900 8950
+Text Label 20900 8950 0    50   ~ 0
+~ROMOE
+Wire Wire Line
+	21750 9200 20800 9200
+Wire Wire Line
+	20800 9200 20800 8850
+Wire Wire Line
+	20800 8850 21350 8850
+Connection ~ 21750 9200
+Wire Wire Line
+	21750 9200 21750 9150
 $EndSCHEMATC
