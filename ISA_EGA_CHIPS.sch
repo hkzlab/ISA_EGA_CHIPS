@@ -2441,4 +2441,20 @@ Wire Wire Line
 	11700 7500 11250 7500
 Text Label 11250 7500 0    50   ~ 0
 BUS_A17
+Wire Wire Line
+	11700 7600 11250 7600
+Text Label 11250 7600 0    50   ~ 0
+BUS_A18
+Wire Wire Line
+	3050 2600 3500 2600
+Text Label 3500 2600 2    50   ~ 0
+BUS_A18
+Wire Wire Line
+	11700 7700 11250 7700
+Text Label 11250 7700 0    50   ~ 0
+BUS_A19
+Wire Wire Line
+	3050 2500 3500 2500
+Text Label 3500 2500 2    50   ~ 0
+BUS_A19
 $EndSCHEMATC
