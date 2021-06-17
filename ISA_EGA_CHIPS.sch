@@ -2558,4 +2558,88 @@ Wire Wire Line
 	7100 8000 6650 8000
 Text Label 6650 8000 0    50   ~ 0
 BUF_D0
+Wire Wire Line
+	13150 6550 13600 6550
+Text Label 13600 6550 2    50   ~ 0
+BUF_D1
+Wire Wire Line
+	22150 7250 22600 7250
+Text Label 22600 7250 2    50   ~ 0
+BUF_D1
+Wire Wire Line
+	7100 8100 6650 8100
+Text Label 6650 8100 0    50   ~ 0
+BUF_D1
+Wire Wire Line
+	13150 6650 13600 6650
+Text Label 13600 6650 2    50   ~ 0
+BUF_D2
+Wire Wire Line
+	22150 7350 22600 7350
+Text Label 22600 7350 2    50   ~ 0
+BUF_D2
+Wire Wire Line
+	7100 8200 6650 8200
+Text Label 6650 8200 0    50   ~ 0
+BUF_D2
+Wire Wire Line
+	22150 7450 22600 7450
+Text Label 22600 7450 2    50   ~ 0
+BUF_D3
+Wire Wire Line
+	13150 6750 13600 6750
+Text Label 13600 6750 2    50   ~ 0
+BUF_D3
+Wire Wire Line
+	7100 8300 6650 8300
+Text Label 6650 8300 0    50   ~ 0
+BUF_D3
+Wire Wire Line
+	22150 7550 22600 7550
+Text Label 22600 7550 2    50   ~ 0
+BUF_D4
+Wire Wire Line
+	13150 6850 13600 6850
+Text Label 13600 6850 2    50   ~ 0
+BUF_D4
+Wire Wire Line
+	7100 8400 6650 8400
+Text Label 6650 8400 0    50   ~ 0
+BUF_D4
+Wire Wire Line
+	22150 7650 22600 7650
+Text Label 22600 7650 2    50   ~ 0
+BUF_D5
+Wire Wire Line
+	13150 6950 13600 6950
+Text Label 13600 6950 2    50   ~ 0
+BUF_D5
+Wire Wire Line
+	7100 8500 6650 8500
+Text Label 6650 8500 0    50   ~ 0
+BUF_D5
+Wire Wire Line
+	22150 7750 22600 7750
+Text Label 22600 7750 2    50   ~ 0
+BUF_D6
+Wire Wire Line
+	13150 7050 13600 7050
+Text Label 13600 7050 2    50   ~ 0
+BUF_D6
+Wire Wire Line
+	7100 8600 6650 8600
+Text Label 6650 8600 0    50   ~ 0
+BUF_D6
+Wire Wire Line
+	22150 7850 22600 7850
+Text Label 22600 7850 2    50   ~ 0
+BUF_D7
+Wire Wire Line
+	13150 7150 13600 7150
+Text Label 13600 7150 2    50   ~ 0
+BUF_D7
+Wire Wire Line
+	7100 8700 6650 8700
+Text Label 6650 8700 0    50   ~ 0
+BUF_D7
 $EndSCHEMATC
