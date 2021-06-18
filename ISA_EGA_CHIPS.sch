@@ -2783,4 +2783,23 @@ Wire Wire Line
 	6350 8600 7100 8600
 Wire Wire Line
 	6350 8700 7100 8700
+Text Label 11200 10000 0    50   ~ 0
+~LPENIN
+Wire Wire Line
+	11200 10000 11700 10000
+Text Label 15950 1750 0    50   ~ 0
+~LPENIN
+Wire Wire Line
+	16300 1750 15950 1750
+NoConn ~ 16300 1650
+Text Notes 16600 1800 0    50   ~ 0
+This connector has pin numbering\ninverted in respect to IBM EGA doc
+Text Label 11200 10100 0    50   ~ 0
+~LPENSW
+Wire Wire Line
+	11200 10100 11700 10100
+Text Label 15950 1550 0    50   ~ 0
+~LPENSW
+Wire Wire Line
+	16300 1550 15950 1550
 $EndSCHEMATC
