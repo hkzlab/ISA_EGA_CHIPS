@@ -414,7 +414,7 @@ U 1 1 60C8EBB1
 P 7300 1100
 F 0 "OSC1" H 6956 1146 50  0000 R CNN
 F 1 "16.257MHz" H 6956 1055 50  0000 R CNN
-F 2 "Oscillator:Oscillator_DIP-14" H 7750 750 50  0001 C CNN
+F 2 "Custom_Oscillators:Oscillator_DIP-14-8" H 7750 750 50  0001 C CNN
 F 3 "http://www.conwin.com/datasheets/cx/cx030.pdf" H 7200 1100 50  0001 C CNN
 	1    7300 1100
 	1    0    0    -1  
@@ -425,7 +425,7 @@ U 1 1 60C8F055
 P 7300 2050
 F 0 "OSC2" H 6957 2096 50  0000 R CNN
 F 1 "25MHz" H 6957 2005 50  0000 R CNN
-F 2 "Oscillator:Oscillator_DIP-14" H 7750 1700 50  0001 C CNN
+F 2 "Custom_Oscillators:Oscillator_DIP-14-8" H 7750 1700 50  0001 C CNN
 F 3 "http://www.conwin.com/datasheets/cx/cx030.pdf" H 7200 2050 50  0001 C CNN
 	1    7300 2050
 	1    0    0    -1  
@@ -436,7 +436,7 @@ U 1 1 60C90FF1
 P 8100 2650
 F 0 "SW1" H 8100 2183 50  0000 C CNN
 F 1 "Configuration" H 8100 2274 50  0000 C CNN
-F 2 "" H 8100 2650 50  0001 C CNN
+F 2 "Package_DIP:DIP-10_W7.62mm_Socket" H 8100 2650 50  0001 C CNN
 F 3 "~" H 8100 2650 50  0001 C CNN
 	1    8100 2650
 	-1   0    0    -1  
@@ -535,7 +535,7 @@ U 1 1 60CA5001
 P 20850 4100
 F 0 "J3" H 20950 4075 50  0000 L CNN
 F 1 "RCA 2" H 20950 3984 50  0000 L CNN
-F 2 "" H 20850 4100 50  0001 C CNN
+F 2 "My_Components:Conn_RCA_Right" H 20850 4100 50  0001 C CNN
 F 3 " ~" H 20850 4100 50  0001 C CNN
 	1    20850 4100
 	1    0    0    -1  
@@ -546,7 +546,7 @@ U 1 1 60CA53BF
 P 22200 4100
 F 0 "J4" H 22300 4075 50  0000 L CNN
 F 1 "RCA 1" H 22300 3984 50  0000 L CNN
-F 2 "" H 22200 4100 50  0001 C CNN
+F 2 "My_Components:Conn_RCA_Right" H 22200 4100 50  0001 C CNN
 F 3 " ~" H 22200 4100 50  0001 C CNN
 	1    22200 4100
 	1    0    0    -1  
