@@ -2987,4 +2987,44 @@ Wire Wire Line
 	21550 1550 21100 1550
 Text Label 21100 1550 0    50   ~ 0
 R
+Wire Wire Line
+	16050 7150 16600 7150
+Wire Wire Line
+	16050 7250 16600 7250
+Wire Wire Line
+	16050 7350 16600 7350
+Wire Wire Line
+	16050 7450 16600 7450
+Wire Wire Line
+	16050 7550 16600 7550
+Wire Wire Line
+	16050 7650 16600 7650
+Wire Wire Line
+	16050 7750 16600 7750
+Wire Wire Line
+	16050 7850 16600 7850
+Text Label 16600 7150 2    50   ~ 0
+BUF_VIN
+Text Label 16600 7250 2    50   ~ 0
+BUF_G
+Text Label 16600 7350 2    50   ~ 0
+BUF_RS
+Text Label 16600 7450 2    50   ~ 0
+BUF_GS_I
+Text Label 16600 7550 2    50   ~ 0
+BUF_BS_V
+Text Label 16600 7650 2    50   ~ 0
+BUF_B
+Text Label 16600 7750 2    50   ~ 0
+BUF_R
+Text Label 16600 7850 2    50   ~ 0
+BUF_HIN
+Text Label 9000 9700 2    50   ~ 0
+~SLOUT
+Wire Wire Line
+	8500 9700 9000 9700
+Wire Wire Line
+	21550 1250 21100 1250
+Text Label 21100 1250 0    50   ~ 0
+~SLOUT
 $EndSCHEMATC
