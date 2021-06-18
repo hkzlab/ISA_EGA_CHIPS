@@ -2863,4 +2863,40 @@ Wire Wire Line
 Connection ~ 14950 8050
 Wire Wire Line
 	14950 8050 15050 8050
+Text Label 13600 9200 2    50   ~ 0
+FCOUT0
+Wire Wire Line
+	13600 9200 13150 9200
+Text Label 21100 1850 0    50   ~ 0
+FCOUT0
+Wire Wire Line
+	21100 1850 21550 1850
+Text Label 13600 9300 2    50   ~ 0
+FCOUT1
+Wire Wire Line
+	13600 9300 13150 9300
+Text Label 22600 1750 2    50   ~ 0
+FCOUT1
+Wire Wire Line
+	22050 1750 22600 1750
+Text Label 9000 10550 2    50   ~ 0
+HIN
+Wire Wire Line
+	8500 10550 9000 10550
+Text Label 9000 10650 2    50   ~ 0
+VIN
+Wire Wire Line
+	8500 10650 9000 10650
+Text Label 14600 7850 0    50   ~ 0
+HIN
+Wire Wire Line
+	15050 7850 14600 7850
+Text Label 22600 1950 2    50   ~ 0
+HIN
+Wire Wire Line
+	22050 1950 22600 1950
+Wire Wire Line
+	11700 10850 11200 10850
+Text Label 11200 10850 0    50   ~ 0
+HIN
 $EndSCHEMATC
