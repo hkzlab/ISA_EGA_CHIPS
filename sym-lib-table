@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name EGA_CHIPS)(type Legacy)(uri ${KIPRJMOD}/libraries/symbols/EGA_CHIPS.lib)(options "")(descr ""))
+  (lib (name my_components)(type Legacy)(uri ${KIPRJMOD}/libraries/others/skiselev_kicad_libraries/library/my_components.lib)(options "")(descr ""))
 )
