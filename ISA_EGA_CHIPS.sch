@@ -3938,4 +3938,6 @@ CONTROLLER & BUS INTERFACE
 NoConn ~ 10700 11200
 Wire Wire Line
 	4050 1100 4400 1100
+Text Notes 21650 1000 0    50   ~ 0
+IBM EGA specifications put\n-12V at pin 2!
 $EndSCHEMATC
