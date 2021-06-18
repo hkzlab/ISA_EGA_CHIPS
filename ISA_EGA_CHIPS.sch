@@ -3379,4 +3379,196 @@ Wire Wire Line
 	1750 9100 1250 9100
 Text Label 1250 9100 0    50   ~ 0
 DRAM_AA7
+Wire Wire Line
+	1750 10950 1250 10950
+Wire Wire Line
+	1750 11050 1250 11050
+Wire Wire Line
+	1750 11150 1250 11150
+Wire Wire Line
+	1750 11250 1250 11250
+Text Label 1250 10950 0    50   ~ 0
+DRAM_BA0
+Text Label 1250 11050 0    50   ~ 0
+DRAM_BA1
+Text Label 1250 11150 0    50   ~ 0
+DRAM_BA2
+Text Label 1250 11250 0    50   ~ 0
+DRAM_BA3
+Wire Wire Line
+	3600 10950 3100 10950
+Wire Wire Line
+	3600 11050 3100 11050
+Wire Wire Line
+	3600 11150 3100 11150
+Wire Wire Line
+	3600 11250 3100 11250
+Text Label 3100 10950 0    50   ~ 0
+DRAM_BA0
+Text Label 3100 11050 0    50   ~ 0
+DRAM_BA1
+Text Label 3100 11150 0    50   ~ 0
+DRAM_BA2
+Text Label 3100 11250 0    50   ~ 0
+DRAM_BA3
+Wire Wire Line
+	3600 13500 3100 13500
+Wire Wire Line
+	3600 13600 3100 13600
+Wire Wire Line
+	3600 13700 3100 13700
+Wire Wire Line
+	3600 13800 3100 13800
+Text Label 3100 13500 0    50   ~ 0
+DRAM_BA0
+Text Label 3100 13600 0    50   ~ 0
+DRAM_BA1
+Text Label 3100 13700 0    50   ~ 0
+DRAM_BA2
+Text Label 3100 13800 0    50   ~ 0
+DRAM_BA3
+Wire Wire Line
+	1750 13500 1250 13500
+Wire Wire Line
+	1750 13600 1250 13600
+Wire Wire Line
+	1750 13700 1250 13700
+Wire Wire Line
+	1750 13800 1250 13800
+Text Label 1250 13500 0    50   ~ 0
+DRAM_BA0
+Text Label 1250 13600 0    50   ~ 0
+DRAM_BA1
+Text Label 1250 13700 0    50   ~ 0
+DRAM_BA2
+Text Label 1250 13800 0    50   ~ 0
+DRAM_BA3
+Wire Wire Line
+	1750 11350 1250 11350
+Wire Wire Line
+	1750 11450 1250 11450
+Wire Wire Line
+	1750 11550 1250 11550
+Wire Wire Line
+	1750 11650 1250 11650
+Text Label 1250 11350 0    50   ~ 0
+DRAM_BA4
+Text Label 1250 11450 0    50   ~ 0
+DRAM_BA5
+Text Label 1250 11550 0    50   ~ 0
+DRAM_BA6
+Text Label 1250 11650 0    50   ~ 0
+DRAM_BA7
+Wire Wire Line
+	3600 11350 3100 11350
+Wire Wire Line
+	3600 11450 3100 11450
+Wire Wire Line
+	3600 11550 3100 11550
+Wire Wire Line
+	3600 11650 3100 11650
+Text Label 3100 11350 0    50   ~ 0
+DRAM_BA4
+Text Label 3100 11450 0    50   ~ 0
+DRAM_BA5
+Text Label 3100 11550 0    50   ~ 0
+DRAM_BA6
+Text Label 3100 11650 0    50   ~ 0
+DRAM_BA7
+Wire Wire Line
+	3600 13900 3100 13900
+Wire Wire Line
+	3600 14000 3100 14000
+Wire Wire Line
+	3600 14100 3100 14100
+Wire Wire Line
+	3600 14200 3100 14200
+Text Label 3100 13900 0    50   ~ 0
+DRAM_BA4
+Text Label 3100 14000 0    50   ~ 0
+DRAM_BA5
+Text Label 3100 14100 0    50   ~ 0
+DRAM_BA6
+Text Label 3100 14200 0    50   ~ 0
+DRAM_BA7
+Wire Wire Line
+	1750 13900 1250 13900
+Wire Wire Line
+	1750 14000 1250 14000
+Wire Wire Line
+	1750 14100 1250 14100
+Wire Wire Line
+	1750 14200 1250 14200
+Text Label 1250 13900 0    50   ~ 0
+DRAM_BA4
+Text Label 1250 14000 0    50   ~ 0
+DRAM_BA5
+Text Label 1250 14100 0    50   ~ 0
+DRAM_BA6
+Text Label 1250 14200 0    50   ~ 0
+DRAM_BA7
+Wire Wire Line
+	2550 5950 3050 5950
+Text Label 3050 5950 2    50   ~ 0
+DRAM_AA0
+Wire Wire Line
+	2550 6050 3050 6050
+Text Label 3050 6050 2    50   ~ 0
+DRAM_AA1
+Wire Wire Line
+	2550 6150 3050 6150
+Text Label 3050 6150 2    50   ~ 0
+DRAM_AA2
+Wire Wire Line
+	2550 6250 3050 6250
+Text Label 3050 6250 2    50   ~ 0
+DRAM_AA3
+Wire Wire Line
+	4400 6000 4900 6000
+Text Label 4900 6000 2    50   ~ 0
+DRAM_AA4
+Wire Wire Line
+	4400 6100 4900 6100
+Text Label 4900 6100 2    50   ~ 0
+DRAM_AA5
+Wire Wire Line
+	4400 6200 4900 6200
+Text Label 4900 6200 2    50   ~ 0
+DRAM_AA6
+Wire Wire Line
+	4400 6300 4900 6300
+Text Label 4900 6300 2    50   ~ 0
+DRAM_AA7
+Wire Wire Line
+	2550 8500 3050 8500
+Text Label 3050 8500 2    50   ~ 0
+DRAM_AA0
+Wire Wire Line
+	2550 8600 3050 8600
+Text Label 3050 8600 2    50   ~ 0
+DRAM_AA1
+Wire Wire Line
+	2550 8700 3050 8700
+Text Label 3050 8700 2    50   ~ 0
+DRAM_AA2
+Wire Wire Line
+	2550 8800 3050 8800
+Text Label 3050 8800 2    50   ~ 0
+DRAM_AA3
+Wire Wire Line
+	4400 8500 4900 8500
+Text Label 4900 8500 2    50   ~ 0
+DRAM_AA4
+Wire Wire Line
+	4400 8600 4900 8600
+Text Label 4900 8600 2    50   ~ 0
+DRAM_AA5
+Wire Wire Line
+	4400 8700 4900 8700
+Text Label 4900 8700 2    50   ~ 0
+DRAM_AA6
+Wire Wire Line
+	4400 8800 4900 8800
+Text Label 4900 8800 2    50   ~ 0
+DRAM_AA7
 $EndSCHEMATC
