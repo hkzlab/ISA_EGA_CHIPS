@@ -2911,4 +2911,20 @@ Text Label 21100 2050 0    50   ~ 0
 VIN
 Wire Wire Line
 	21100 2050 21550 2050
+Wire Wire Line
+	8500 10400 9000 10400
+Wire Wire Line
+	11700 11150 11200 11150
+Wire Wire Line
+	15050 7550 14600 7550
+Text Label 9000 10400 2    50   ~ 0
+BS_V
+Text Label 11200 11150 0    50   ~ 0
+BS_V
+Text Label 14600 7550 0    50   ~ 0
+BS_V
+Text Label 21100 1950 0    50   ~ 0
+BS_V
+Wire Wire Line
+	21100 1950 21550 1950
 $EndSCHEMATC
