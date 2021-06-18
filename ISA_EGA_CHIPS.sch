@@ -2927,4 +2927,64 @@ Text Label 21100 1950 0    50   ~ 0
 BS_V
 Wire Wire Line
 	21100 1950 21550 1950
+Wire Wire Line
+	8500 10300 9000 10300
+Text Label 9000 10300 2    50   ~ 0
+GS_I
+Text Label 14600 7450 0    50   ~ 0
+GS_I
+Wire Wire Line
+	15050 7450 14600 7450
+Text Label 22600 1850 2    50   ~ 0
+GS_I
+Wire Wire Line
+	22050 1850 22600 1850
+Wire Wire Line
+	8500 10200 9000 10200
+Text Label 9000 10200 2    50   ~ 0
+RS
+Text Label 14600 7350 0    50   ~ 0
+RS
+Wire Wire Line
+	15050 7350 14600 7350
+Wire Wire Line
+	21550 1450 21100 1450
+Text Label 21100 1450 0    50   ~ 0
+RS
+Wire Wire Line
+	8500 10100 9000 10100
+Text Label 9000 10100 2    50   ~ 0
+B
+Wire Wire Line
+	15050 7650 14600 7650
+Text Label 14600 7650 0    50   ~ 0
+B
+Text Label 22600 1450 2    50   ~ 0
+B
+Wire Wire Line
+	22600 1450 22050 1450
+Wire Wire Line
+	8500 9900 9000 9900
+Text Label 9000 9900 2    50   ~ 0
+R
+Wire Wire Line
+	8500 10000 9000 10000
+Text Label 9000 10000 2    50   ~ 0
+G
+Text Label 14600 7250 0    50   ~ 0
+G
+Wire Wire Line
+	15050 7250 14600 7250
+Wire Wire Line
+	22600 1350 22050 1350
+Text Label 22600 1350 2    50   ~ 0
+G
+Wire Wire Line
+	15050 7750 14600 7750
+Text Label 14600 7750 0    50   ~ 0
+R
+Wire Wire Line
+	21550 1550 21100 1550
+Text Label 21100 1550 0    50   ~ 0
+R
 $EndSCHEMATC
