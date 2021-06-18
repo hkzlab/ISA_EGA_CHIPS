@@ -431,17 +431,6 @@ F 3 "http://www.conwin.com/datasheets/cx/cx030.pdf" H 7200 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_DIP_x05 SW1
-U 1 1 60C90FF1
-P 8100 2650
-F 0 "SW1" H 8100 2183 50  0000 C CNN
-F 1 "Configuration" H 8100 2274 50  0000 C CNN
-F 2 "Package_DIP:DIP-10_W7.62mm_Socket" H 8100 2650 50  0001 C CNN
-F 3 "~" H 8100 2650 50  0001 C CNN
-	1    8100 2650
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:R_Small R1
 U 1 1 60C91A93
 P 8650 11400
@@ -530,10 +519,10 @@ F 3 "~" H 12700 8950 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_Coaxial J3
+L Connector:Conn_Coaxial J4
 U 1 1 60CA5001
 P 20850 4100
-F 0 "J3" H 20950 4075 50  0000 L CNN
+F 0 "J4" H 20950 4075 50  0000 L CNN
 F 1 "RCA 2" H 20950 3984 50  0000 L CNN
 F 2 "My_Components:Conn_RCA_Right" H 20850 4100 50  0001 C CNN
 F 3 " ~" H 20850 4100 50  0001 C CNN
@@ -541,10 +530,10 @@ F 3 " ~" H 20850 4100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Conn_Coaxial J4
+L Connector:Conn_Coaxial J3
 U 1 1 60CA53BF
 P 22200 4100
-F 0 "J4" H 22300 4075 50  0000 L CNN
+F 0 "J3" H 22300 4075 50  0000 L CNN
 F 1 "RCA 1" H 22300 3984 50  0000 L CNN
 F 2 "My_Components:Conn_RCA_Right" H 22200 4100 50  0001 C CNN
 F 3 " ~" H 22200 4100 50  0001 C CNN
@@ -3781,7 +3770,7 @@ U 1 1 60CA35D4
 P 20650 1750
 F 0 "J1" H 20700 2667 50  0000 C CNN
 F 1 "EGA Feature Connector" H 20700 2576 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x16_P2.54mm_Vertical" H 20650 1750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x16_P2.54mm_Vertical" H 20650 1750 50  0001 C CNN
 F 3 "~" H 20650 1750 50  0001 C CNN
 	1    20650 1750
 	1    0    0    -1  
@@ -4014,4 +4003,15 @@ F 3 "" H 18150 13600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	18150 13600 18150 13800
+$Comp
+L Switch:SW_DIP_x05 SW1
+U 1 1 60C90FF1
+P 8100 2650
+F 0 "SW1" H 8100 2183 50  0000 C CNN
+F 1 "Configuration" H 8100 2274 50  0000 C CNN
+F 2 "Package_DIP:DIP-10_W7.62mm_Socket" H 8100 2650 50  0001 C CNN
+F 3 "~" H 8100 2650 50  0001 C CNN
+	1    8100 2650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
