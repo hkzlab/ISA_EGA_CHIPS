@@ -2642,4 +2642,60 @@ Wire Wire Line
 	7100 8700 6650 8700
 Text Label 6650 8700 0    50   ~ 0
 BUF_D7
+Text Label 6650 7800 0    50   ~ 0
+BUF_A16
+Wire Wire Line
+	7100 7800 6650 7800
+Text Label 13600 7400 2    50   ~ 0
+BUF_A16
+Wire Wire Line
+	13150 7400 13600 7400
+Wire Wire Line
+	1650 2400 1250 2400
+Text Label 1250 2400 0    50   ~ 0
+~MEMW
+Wire Wire Line
+	11700 8900 11250 8900
+Text Label 11250 8900 0    50   ~ 0
+~MEMW
+Wire Wire Line
+	1650 2500 1250 2500
+Text Label 1250 2500 0    50   ~ 0
+~MEMR
+Wire Wire Line
+	11700 8800 11250 8800
+Text Label 11250 8800 0    50   ~ 0
+~MEMR
+Wire Wire Line
+	1650 2600 1250 2600
+Text Label 1250 2600 0    50   ~ 0
+~IOW
+Wire Wire Line
+	11700 9100 11250 9100
+Text Label 11250 9100 0    50   ~ 0
+~IOW
+Wire Wire Line
+	1650 2700 1250 2700
+Text Label 1250 2700 0    50   ~ 0
+~IOR
+Wire Wire Line
+	11700 9000 11250 9000
+Text Label 11250 9000 0    50   ~ 0
+~IOR
+Wire Wire Line
+	1650 3200 1250 3200
+Text Label 1250 3200 0    50   ~ 0
+~DACK0
+Wire Wire Line
+	11700 9250 11250 9250
+Text Label 11250 9250 0    50   ~ 0
+~DACK0
+Wire Wire Line
+	1650 3300 1250 3300
+Text Label 1250 3300 0    50   ~ 0
+BUS_CLK
+Text Label 11200 9850 0    50   ~ 0
+BUS_CLK
+Wire Wire Line
+	11200 9850 11700 9850
 $EndSCHEMATC
