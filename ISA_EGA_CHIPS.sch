@@ -2899,4 +2899,16 @@ Wire Wire Line
 	11700 10850 11200 10850
 Text Label 11200 10850 0    50   ~ 0
 HIN
+Text Label 11200 10950 0    50   ~ 0
+VIN
+Wire Wire Line
+	11700 10950 11200 10950
+Text Label 14600 7150 0    50   ~ 0
+VIN
+Wire Wire Line
+	15050 7150 14600 7150
+Text Label 21100 2050 0    50   ~ 0
+VIN
+Wire Wire Line
+	21100 2050 21550 2050
 $EndSCHEMATC
