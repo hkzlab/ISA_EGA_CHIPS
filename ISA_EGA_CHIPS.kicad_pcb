@@ -808,7 +808,7 @@
     (fp_text reference J1 (at 1.016 -2.794 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value "EGA Feature Connector" (at -2.54 16.256 180) (layer F.SilkS)
+    (fp_text value "EGA Feature Connector" (at -2.032 15.748 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 0 -1.27) (end 3.81 -1.27) (layer F.Fab) (width 0.1))
