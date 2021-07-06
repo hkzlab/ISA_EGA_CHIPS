@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This board is based on a reversed **PA-WTEGA** card, based on the **CHIPS** chipset (P82C435 + P82A436). 
+This board is and EGA clone based on a reversed **PA-WTEGA** card, based on the chipset by **CHIPS** (P82C435 + P82A436). 
 
 ![EGA CHIPS](pics/isa_ega.jpg)
 
