@@ -25,9 +25,13 @@ You're encourauged to take what you deem fit from this, and use it in your proje
 | ----------------- | --- | ------------------- |
 | **TODO**          |     |                     |
 
+You can hardwire `JP1` pins 1-2 and `JP2` pins 2-3.
+
+Connectors `RCA 1` and `RCA 2` are useless unless an expansion for the feature connector is used. You can leave them out.
+
 ### BIOS
 
-Testing for Phoenix Video Bios V1.02 for P82C435.
+This board was tested with [Phoenix Video Bios V1.02 for P82C435](bios/Phoenix_video_bios_PA-WTEGA_NMC27C256Q.BIN). Burn it on a 27C256 and plug it in U10.
 
 ### Component substitutions
 
