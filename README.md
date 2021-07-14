@@ -31,7 +31,9 @@ Connectors `RCA 1` and `RCA 2` are useless unless an expansion for the feature c
 
 ### BIOS
 
-This board was tested with [Phoenix Video Bios V1.02 for P82C435](bios/Phoenix_video_bios_PA-WTEGA_NMC27C256Q.BIN). Burn it on a 27C256 and plug it in U10.
+This board was tested with [Phoenix Video Bios V1.02 for P82C435](bios/Phoenix_video_bios_PA-WTEGA_NMC27C256Q.BIN).
+
+Burn it on a 27C256 and plug it in U10.
 
 ### Component substitutions
 
