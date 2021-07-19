@@ -17,7 +17,7 @@ The card as a bank of 5 dipswitches. Dipswitch 1-4 match the ones found on an IB
 
 0 means switch open, 1 means closed.
 
-* Jumper 1-4:
+* Jumpers 1-4:
     * 0-1-1-0: IBM 5154 (EGA) mode
     * 0-0-0-1: IBM 5153 (CGA) mode
     * 0-0-1-0: IBM 5151 (MDA) mode
