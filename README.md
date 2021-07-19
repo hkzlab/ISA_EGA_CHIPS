@@ -11,11 +11,27 @@ This board is and EGA clone based on a reversed **PA-WTEGA** card, based on the 
 I take NO responsibility for what happens if you decide to build and use this card. Your computer might crash, catch fire or be destroyed in other nasty ways.
 You're encourauged to take what you deem fit from this, and use it in your projects!
 
+### Configuration
+
+The card as a bank of 5 dipswitches. Dipswitch 1-4 match the ones found on an IBM EGA card, dipswitch 5 selects the IO address.
+
+0 means switch open, 1 means closed.
+
+* Jumper 1-4:
+    * 0-1-1-0: IBM 5154 (EGA) mode
+    * 0-0-0-1: IBM 5153 (CGA) mode
+    * 0-0-1-0: IBM 5151 (MDA) mode
+* Jumper 5:
+    * 0: I/O address range in 3xx **default**
+    * 1: I/O address range in 2xx
+
 ### Functionalities
 
 ✅ means I tested the functionality and it works, ❌ means I tested the functionality and found issues, ? means that the functionality has yet to be tested.
 
-* [✅] Display checkup with CheckIt
+* [✅] Display checkup with CheckIt (5154/EGA monitor)
+* [?] Display checkup with CheckIt (5153/CGA monitor)
+* [?] Display checkup with CheckIt (5151/MDA monitor)
 * [?] Feature Connector
 * [?] Light pen input
 
