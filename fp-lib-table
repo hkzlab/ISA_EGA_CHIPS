@@ -1,4 +1,5 @@
 (fp_lib_table
   (lib (name Custom_Oscillators)(type KiCad)(uri ${KIPRJMOD}/libraries/footprints/Custom_Oscillators.pretty)(options "")(descr ""))
   (lib (name My_Components)(type KiCad)(uri ${KIPRJMOD}/libraries/others/skiselev_kicad_libraries/My_Components.pretty)(options "")(descr ""))
+  (lib (name Custom_Silkscreen)(type KiCad)(uri ${KIPRJMOD}/libraries/footprints/Custom_Silkscreen.pretty)(options "")(descr ""))
 )
