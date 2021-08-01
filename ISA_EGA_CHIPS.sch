@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 1
 Title "EGA CHIPS"
 Date ""
-Rev "0"
+Rev "0.2"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -3481,11 +3481,7 @@ Wire Wire Line
 Connection ~ 18400 2600
 Wire Wire Line
 	18400 2600 18400 2550
-Wire Wire Line
-	18100 1750 16600 1750
-Wire Wire Line
-	16600 1750 16600 1400
-Text Label 17600 1750 0    50   ~ 0
+Text Label 17700 1500 2    50   ~ 0
 CONN_RS
 Wire Wire Line
 	16000 1400 16000 1650
@@ -4014,4 +4010,46 @@ F 3 "~" H 8100 2650 50  0001 C CNN
 	1    8100 2650
 	1    0    0    -1  
 $EndComp
+$Comp
+L Connector_Generic:Conn_01x03 JP4
+U 1 1 6113CA44
+P 18400 3300
+F 0 "JP4" H 18480 3342 50  0000 L CNN
+F 1 "Monitor Type" H 18480 3251 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 18400 3300 50  0001 C CNN
+F 3 "~" H 18400 3300 50  0001 C CNN
+	1    18400 3300
+	1    0    0    1   
+$EndComp
+Text Label 17750 3200 0    50   ~ 0
+CONN_RS
+Wire Wire Line
+	17750 3200 18200 3200
+$Comp
+L power:GND #PWR0162
+U 1 1 612DDC24
+P 17750 3500
+F 0 "#PWR0162" H 17750 3250 50  0001 C CNN
+F 1 "GND" H 17755 3327 50  0000 C CNN
+F 2 "" H 17750 3500 50  0001 C CNN
+F 3 "" H 17750 3500 50  0001 C CNN
+	1    17750 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17750 3400 17750 3500
+Wire Wire Line
+	17750 3400 18200 3400
+Wire Wire Line
+	16600 1500 17700 1500
+Wire Wire Line
+	16600 1500 16600 1400
+Wire Wire Line
+	18100 1750 17600 1750
+Text Label 17600 1750 0    50   ~ 0
+MON_PIN_2
+Text Label 17750 3300 0    50   ~ 0
+MON_PIN_2
+Wire Wire Line
+	18200 3300 17750 3300
 $EndSCHEMATC
