@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 22)
+    (drawings 23)
     (tracks 4192)
     (zones 0)
     (modules 68)
@@ -3081,7 +3081,7 @@
     (descr "9-pin D-Sub connector, horizontal/angled (90 deg), THT-mount, female, pitch 2.77x2.84mm, pin-PCB-offset 7.699999999999999mm, distance of mounting holes 25mm, distance of mounting holes to PCB edge 9.12mm, see https://disti-assets.s3.amazonaws.com/tonar/files/datasheets/16730.pdf")
     (tags "9-pin D-Sub connector horizontal angled 90deg THT female pitch 2.77x2.84mm pin-PCB-offset 7.699999999999999mm mounting-holes-distance 25mm mounting-hole-offset 25mm")
     (path /60CA6101)
-    (fp_text reference J6 (at 11.29 -1.732 180) (layer F.SilkS)
+    (fp_text reference J6 (at 10.909 6.904 180) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value "Digital Output" (at -16.015 -3.383 90) (layer F.SilkS)
@@ -4543,6 +4543,9 @@
     )
   )
 
+  (gr_text "1-2: IBM 5153\n2-3: IBM 5154" (at 301.498 145.415 90) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
+  )
   (dimension 26.924 (width 0.15) (layer Dwgs.User)
     (gr_text "26,924 mm" (at 197.358 202.214) (layer Dwgs.User)
       (effects (font (size 1 1) (thickness 0.15)))
