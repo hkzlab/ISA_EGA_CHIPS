@@ -18,11 +18,20 @@ The card as a bank of 5 dipswitches. Dipswitch 1-4 select the card video output 
 0 means switch open, 1 means closed.
 
 * Jumpers 1-4:
-    * 0-1-1-0: EGA mode?
-    * ???
+    * 0-1-0-0: MDA Mode (main)
+    * 1-0-0-1: CGA 40x25 (main)
+    * 1-0-0-0: CGA 80x25 (main)
+    * 0-1-1-1: EGA 200 lines (main)
+    * 0-1-1-0: EGA 350 lines (main)
+    * 1-1-1-1: CGA 40x25 (secondary)
+    * 1-1-1-0: CGA 80x25 (secondary)
+    * 1-1-0-1: EGA 200 lines (secondary)
+    * 1-1-0-0: EGA 350 lines (secondary)
 * Jumper 5:
     * 0: I/O address range in 3xx **default**
     * 1: I/O address range in 2xx
+
+TODO: Test all the combinations provided in the TEVA-2 card manual
 
 ### Functionalities
 
