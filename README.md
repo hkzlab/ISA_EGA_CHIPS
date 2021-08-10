@@ -62,7 +62,7 @@ Burn it on a 27C256 and plug it in U10.
 ### Component substitutions
 
 * U15 and U13 can be substituted with HCT equivalents
-* U4 is an 'LS244 in the original card, I noticed an improvement in image stability by using an 'F244
+* U4 is an 'LS244 in the original card, I noticed an improvement in image stability with a MCE2VGA by using an 'F244 
 
 ## Known issues
 
