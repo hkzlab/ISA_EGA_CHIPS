@@ -38,7 +38,7 @@ TODO: Test all the combinations provided in the TEVA-2 card manual
 ✅ means I tested the functionality and it works, ❌ means I tested the functionality and found issues, ? means that the functionality has yet to be tested.
 
 * [✅] Display checkup with CheckIt (5154/EGA monitor)
-* [?] Display checkup with CheckIt (5153/CGA monitor)
+* [✅] Display checkup with CheckIt (5153/CGA monitor)
 * [?] Display checkup with CheckIt (5151/MDA monitor)
 * [?] Feature Connector
 * [?] Light pen input
