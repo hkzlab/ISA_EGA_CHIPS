@@ -71,7 +71,7 @@ Burn it on a 27C256 and plug it in U10.
 These are issues found with this board, but that are **also present in the original model** I cloned.
 
 * Screen tearing detected in Commander Keen 4 and 5 (also happening on DOSBox configured for EGA, also note [here](http://nerdlypleasures.blogspot.com/2014/09/how-many-fps-dos-games-and-framerates.html): `The use of 35 frames, even in a 16-color game like Keen, demonstrates that ID was using VGA, not EGA, to develop the game` )
-* Minor graphical glitches during gameplay in Tom & Jerry CAT-astrophe.
+* Minor graphical glitches (flickering at top of the screen) during gameplay in Tom & Jerry CAT-astrophe.
 
 ### Rev 0.1
 
@@ -84,7 +84,7 @@ These are issues found with this board, but that are **also present in the origi
 
 ## TODO
 
-* ???
+* Testing...
 
 ## Credits
 
