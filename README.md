@@ -66,6 +66,13 @@ Burn it on a 27C256 and plug it in U10.
 
 ## Known issues
 
+### General issues
+
+These are issues found with this board, but that are **also present in the original model** I cloned.
+
+* Screen tearing detected in Commander Keen 4 and 5
+* Minor graphical glitches during gameplay in Tom & Jerry CAT-astrophe.
+
 ### Rev 0.1
 
 * Not really an issue as this is not present in the original card I cloned, but might be worth to add a jumper that can physically connect pin 2 of the DB9 connector to GND and not rely only on the jumper configuration, when using the card with a CGA monitor.
