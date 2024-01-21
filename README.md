@@ -3,6 +3,7 @@
 ## Introduction
 
 This board is and EGA clone based on a reversed **PA-WTEGA** card, based on the chipset by **CHIPS** (P82C435 + P82A436). 
+
 The chipset should be compatible with EGA, CGA, MDA and Hercules standards.
 
 ![EGA CHIPS](pics/isa_ega.jpg)
@@ -32,7 +33,7 @@ The card as a bank of 5 dipswitches. Dipswitch 1-4 select the card video output 
     * 0: I/O address range in 3xx **default**
     * 1: I/O address range in 2xx
 
-NOTE: The meaning of each combination is dependant on the bios of the card. This list was taken from the TEVA-2 card's manual.
+**NOTE:** The meaning of each combination is dependant on the bios of the card. This list was taken from the TEVA-2 card's manual.
 
 TODO: Test all the combinations provided in the TEVA-2 card manual
 
